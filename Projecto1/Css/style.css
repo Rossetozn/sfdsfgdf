@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.918);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    border-radius: 10px;
+    border: 1px solid;
+    height: 650px;
+    width: 450px;
+    background-color: rgb(34, 34, 34);
+    border-color:  rgb(34, 34, 34);
+}
+#avatar-jessica{
+    border-radius: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+#writes{
+    height: 25%;
+    width: 100%;
+}
+.avatar, .name, .locate, .description, .button{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    height: 60px;
+    align-items: center;
+}
+.buttons{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    color: white;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.locate{
+    color: greenyellow;
+}
+.description{
+    font-size: large;
+    margin-top: 15px;
+    color: white;
+}
+a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    height: 40px;
+    width: 80%;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    transition: 80ms;
+}
+a:hover{
+    height: 60px;
+    width: 85%;
+    background-color: greenyellow;
+    border-color: greenyellow;
+    color: black;
+}
